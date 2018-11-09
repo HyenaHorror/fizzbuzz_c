@@ -2,16 +2,15 @@
 
 int main()
 {
-	int i;
-	for (i = 0; i < 100; i = i + 1){
+	for (i = 1; i <= 100; i = i + 1){
 		if(i % 15 == 0){
-			printf("FIZZ BUZZ\n");
+			console.log("FIZZ BUZZ");
 		} else if (i % 3 == 0){
-			printf("FIZZ\n");
+			console.log("FIZZ");
 		} else if (i % 5 == 0){
-			printf("BUZZ\n");
+			console.log("BUZZ");
 		} else {
-			printf("%d\n", i);
+			console.log(i);
 		}
 	}
 }
